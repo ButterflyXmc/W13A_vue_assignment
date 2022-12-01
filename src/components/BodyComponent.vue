@@ -1,4 +1,5 @@
 <template>
+<!-- Body content -->
     <div>
         <h2>Why did the PowerPoint Presentation cross the road?</h2>
         <p>To get to the other slide.</p>
@@ -21,12 +22,14 @@
     </div>
 </template>
 
+ <!-- Will be using this BodyComponent in the app.vue file -->
 <script>
     export default {
         name : "BodyComponent"
     }
 </script>
 
+ <!-- Will only style the content in this BodyComponent file-->
 <style scoped>
     div{
         background-image: url(https://i.pinimg.com/736x/f5/94/15/f59415b9c0ad251ab6e7ec6ab7ea1ee3.jpg);
